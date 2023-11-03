@@ -1,0 +1,2 @@
+body{font-family:Modern Antiqua,serif;font-family:Raleway,sans-serif;margin:0}.paging{align-items:center;display:flex;font-size:20px;justify-content:space-evenly;list-style:none;width:100vw}li.selected{background-color:#faebd7;color:#506155}.next,.previous{border-radius:10px;width:10rem}.next,.pagingtag,.previous{background-color:#506155;color:#fff;cursor:pointer;text-align:center}.pagingtag{border-radius:15px;width:2rem}.next:hover,.pagingtag:hover,.previous:hover{background-color:#fff;border:1px solid #506155;color:#506155}
+/*# sourceMappingURL=main.be036784.css.map*/
