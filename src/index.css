@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Modern Antiqua', serif;
+  font-family: 'Raleway', sans-serif;
+}
+.paging{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    list-style: none;
+    font-size: 20px;
+}
+
+li.selected{
+  color: #506155;
+  background-color: antiquewhite;
+}
+.previous,.next{
+  color: white;
+  background-color: #506155;
+  border-radius: 10px;
+  width: 10rem;
+  text-align: center;
+  cursor: pointer;
+}
+.pagingtag{
+  width: 2rem;
+    background-color: #506155;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+.pagingtag:hover,.previous:hover,.next:hover{
+  border: 1px solid #506155;
+  background-color: white;
+  color: #506155;
+}
